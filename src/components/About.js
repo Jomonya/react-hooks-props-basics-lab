@@ -1,6 +1,13 @@
 import React from "react";
 
 function About() {
+  // const About= ({ bio }) => {
+  //   return (
+  //       <div>
+  //           {bio ? <p>{bio}</p> : null}
+  //       </div>
+  //   );
+//}
   return (
     <div id="about">
       <h2>About Me</h2>
