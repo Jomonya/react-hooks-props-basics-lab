@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-function Links() {
+function Link(props) {
     return (
         <div>
             <h3>Links</h3>
-            <a href= "#githubLink" >githubLink</a>
-            <a href="#linkedinLink">linkedinLink</a>
+            <a href={props.github}>{props.github}</a>
+            <a href={props.linkedin}>{props.linkedin}</a>
         </div>
-    );
+    )
 }
 
-export default Links;
+export default Link;
